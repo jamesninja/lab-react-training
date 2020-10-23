@@ -9,12 +9,8 @@ export default function IdCard(props){
 			</div>
 			<div>
 				<div>First name: {props.firstName}</div>
-				<div>
-					Height: {props.height}
-				</div>
-				<div>
-					Birth: {props.birth}
-				</div>
+				<div>Height: {props.height}</div>
+				<div>Birth: {props.birth}</div>
 			</div>
 		</div>
 	);
